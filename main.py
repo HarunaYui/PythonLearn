@@ -1,4 +1,5 @@
-# 按装订区域中的绿色按钮以运行脚本。
+import Lesson1
+
 
 def count(data, target):
     n = 0
@@ -13,3 +14,14 @@ if __name__ == '__main__':
     target = 1
     n = count(data, target)
     print(n)
+
+    # R-1.1
+    n = 20
+    m = 10
+    result1 = Lesson1.is_multiple(n, m)
+    print(result1)
+
+    # R-1.2
+    k = 20
+    result2 = Lesson1.is_even(k)
+    print(result2)
